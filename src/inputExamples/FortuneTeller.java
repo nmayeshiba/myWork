@@ -15,6 +15,7 @@ public class FortuneTeller {
 		System.out.println("You will die in " +luckyNumber + " years.");
 		System.out.println("Your children will be born " +weight + age + " lbs.");
 		System.out.println("At your local Walmart.");
+		input.close();
 	}
 
 }
