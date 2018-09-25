@@ -13,6 +13,7 @@ public class LockerCombination {
 		int numberThree = input.nextInt();
 		System.out.println("I know your combination now!");
 		System.out.println("It's " +numberOne + " - " +numberTwo + " - " + numberThree + "." );
+		input.close();
 	}
 
 }
