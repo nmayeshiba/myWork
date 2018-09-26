@@ -8,6 +8,7 @@ public class SteamControllerTest {
 		System.out.println("Is the controller working well?");
 		boolean answer  = input.nextBoolean();
 		System.out.println("Steam Controller good? " + answer);
+		input.close();
 	}
 
 }
