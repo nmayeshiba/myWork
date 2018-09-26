@@ -10,6 +10,7 @@ public class Age {
 		System.out.println("In 17,386 years, you'll be dead.");
 		age = age + 10;
 		System.out.println("However, in 10 years, you'll be " +age + " years old.");
+		input.close();
 	}
 
 }
