@@ -17,7 +17,7 @@ public class PostIts {
 		postIts = rectangleArea / postItsArea;
 		System.out.println("The area of the surface is " +rectangleArea + ".");
 		System.out.println("It will take " +postIts+" Post-its to cover the surface.");
-		
+		input.close();
 
 	}
 
