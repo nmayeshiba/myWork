@@ -20,4 +20,19 @@ public void saySum(double a, double b)
 	double whatever = a + b;
 	System.out.println("When you add your numbers together, you get "+ whatever + ".");
 	}
+public double returnSquare(double a)
+	{
+	double square = a*a;
+	return square;
+	}
+public double returnArea(double length, double width)
+	{
+	double area = length*width;
+	return area;
+	}
+public double returnRoundUp(double a)
+	{
+	int roundUp = (int) Math.ceil(a);
+	return roundUp;
+	}
 }
