@@ -16,6 +16,7 @@ public class variableDeclaration {
 		System.out.println("Do you know the answer");
 		answer = input.nextBoolean();
 		System.out.println("So you're " + age + ", you have $" + money + ", and you think the answer is " + answer + "?");
+		input.close();
 	}
 
 }

@@ -18,7 +18,7 @@ public class ScannerExample {
 				{
 				System.out.println("I thought so.");		
 				}
-
+		input.close();
 	}
 
 }
