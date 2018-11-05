@@ -13,10 +13,6 @@ public class Quiz {
 		case 1:
 		System.out.println("How many days are in a week?");
 		question1 = input.nextInt();
-		if(question1 == 7)
-		{
-		number = 2;	
-		}
 		break;
 		case 2:
 		System.out.println("If you arrived here, you win.");

@@ -11,8 +11,18 @@ costOfAluminum = 2.60;
 }
 public SodaCan(double xRadius, double xHeight)
 {
+if(xRadius > 0) 
+{
 radius = xRadius;
+} else {
+radius = 1;
+}
+if(xHeight > 0)
+{
 height = xHeight;
+} else {
+height = 1;	
+}
 costOfAluminum = 2.60;
 }
 public void setRadius(double xRadius)
