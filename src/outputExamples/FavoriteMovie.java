@@ -10,6 +10,7 @@ public class FavoriteMovie
 		System.out.println("Tell me your favorite movie.");
 		movie = input.nextLine();
 		System.out.println(movie + " is your favorite movie? Lame.");
+		input.close();
 	}
 
 }	
