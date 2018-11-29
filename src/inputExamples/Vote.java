@@ -8,6 +8,7 @@ public class Vote {
 		System.out.println("Did you vote??????");
 		boolean vote = input.nextBoolean();
 		System.out.println("Wow, your voting value was " +vote +"? Congratulations.");
+		input.close();
 	}
 
 }

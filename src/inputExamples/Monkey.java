@@ -18,6 +18,7 @@ public class Monkey {
 			height = input.nextInt();
 			System.out.println("Okay then, I guess a monkey is " + height + " feet tall...");
 			}
+		input.close();
 	}
 
 }

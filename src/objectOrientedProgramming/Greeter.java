@@ -1,9 +1,6 @@
 package objectOrientedProgramming;
 
 public class Greeter {
-
-<<<<<<< HEAD
-=======
 //instance fields - data storage
 	
 //constructors - methods for constructing the object
@@ -18,5 +15,4 @@ public void sayHello()
 	System.out.println("Hello?");
 }
 //methods - things the object can do.
->>>>>>> objectOrientedProgramming
 }

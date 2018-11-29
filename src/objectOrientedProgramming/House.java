@@ -12,5 +12,7 @@ public void paintWall()
 	double wLength = input.nextDouble();
 	System.out.println("What is the height of the wall?");
 	double wHeight = input.nextDouble();
+	System.out.println(wLength);
+	System.out.println(wHeight);
 	}
 }
