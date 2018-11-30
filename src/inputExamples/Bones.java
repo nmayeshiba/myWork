@@ -15,6 +15,7 @@ public class Bones {
 			System.out.println("You broke " + bonesBroken + " bones?? Lame.");
 			}
 		input.close();
+		//edit
 	}
 
 }
